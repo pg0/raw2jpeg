@@ -10,3 +10,6 @@ RAW_Img can be `.ARW, .DNG, .CR2`
 It just saves the thumbnail embedded.<br>but is a good enough solution if you only have a RAW
 
 for more raw img development you can see the `raw_viewer.ipynb`
+
+## dependencies
+`pip install rawpy`
