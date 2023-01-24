@@ -1,10 +1,7 @@
 #!/usr/bin/python
 import sys, getopt
-
 import os
-from io import BytesIO
 import rawpy
-from PIL import Image
 
 def main(argv):
     opts, args = getopt.getopt(argv,"h")
@@ -32,12 +29,6 @@ def main(argv):
                     with open(thumb_filename, 'wb') as f:
                         f.write(thumb.data)
                         print('"' + thumb_filename +'" saved successfully')
-                    thumb_rgb = Image.open(BytesIO(thumb.data))
-                else:
-                    thumb_filename = filename + '_thumb.tiff'
-                    thumb_rgb = Image.fromarray(thumb.data)
-                    thumb_rgb.save(filename, 'tiff')
-                    print('"' + thumb_filename +'" saved successfully')
             else:
                 print('unknown thumbnail format')
 
