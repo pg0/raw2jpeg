@@ -2,7 +2,7 @@
 Python script to convert any RAW (supported by rawpy) to JPEG
 
 ## usage
-`python rawprocess.py <Raw_Img>`
+`python raw2jpeg.py <Raw_Img>`
 
 RAW_Img can be `.ARW, .DNG, .CR2`
 
