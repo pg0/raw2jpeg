@@ -1,4 +1,4 @@
-# raw_to_jpeg
+# raw2jpeg
 Python script to convert any RAW (supported by rawpy) to JPEG
 
 ## usage
